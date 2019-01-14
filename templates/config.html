@@ -1,0 +1,13 @@
+<html>
+<body>
+<h1>Motion detection</h1>
+
+<form  action="" method="POST">
+  {% for clas in classes %}
+  <input type="checkbox" name="class" value="{{clas}}">{{clas}}<br>
+
+  {% endfor %}
+  <button type="submit">Apply</button>
+</form>
+</body>
+</html>
